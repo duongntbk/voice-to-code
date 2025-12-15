@@ -1,0 +1,7 @@
+openai-whisper==20250625
+whisper-mic @ git+https://github.com/duongntbk/whisper_mic.git@c4e772ba561abf12e2f6b9612781dd3398167088
+SpeechRecognition==3.14.3
+PyAudio==0.2.14
+pyinstaller==6.16.0
+pytest==8.4.2
+ruff==0.14.1
