@@ -54,8 +54,6 @@ python3 -m venv venv
 
 Higher mic gain improves transcription accuracy and prevents cutoffs.
 
-
-
 ## Usage
 
 ### 1. Start AI Agent in tmux session
@@ -99,7 +97,7 @@ sudo apt-get install python3-tk
 If using pyenv, you may need to reinstall Python:
 
 ```bash
-pyenv install 3.x.y
+pyenv install <your-python-version>
 ```
 
 ### 3. Use voice input
@@ -124,7 +122,7 @@ CONFIG = {
     'listen_timeout': 2.0,              # Max seconds to wait for speech to start
     'energy_threshold': 100,            # Minimum audio energy to detect speech
     'dynamic_energy': True,             # Auto-adjust for ambient noise
-    'vocalize_response': False,         # Whether AI Agent should say a summary of the response out loud (MacOS only)
+    'vocalize_response': False,         # Whether AI Agent should say a summary of the response out loud (macOS: say / Linux: espeak-ng)
     'log_handler_type': 'ui',           # Log output: 'ui' or 'file'
     'debug': False,                     # Verbose logging + capture WhisperMic logs
 }
