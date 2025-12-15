@@ -69,4 +69,4 @@ class HelpForm:
     
     def _open_issue_page(self) -> None:
         """Open issue page in browser."""
-        webbrowser.open("https://example.com")
+        webbrowser.open("https://github.com/duongntbk/voice-to-code/issues")
